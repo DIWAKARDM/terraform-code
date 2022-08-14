@@ -11,7 +11,9 @@ terraform {
 provider "aws" {
   region = "${var.aws_region}"
   #shared_credentials_files = "$HOME/.aws/credentials"
-  profile                 = "default"
+  #profile                 = "default"
+  access_key = "AKIASVE2E7TNPXPRTYDQ"
+  secret_key = "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"
 }
 
 # Create a VPC
